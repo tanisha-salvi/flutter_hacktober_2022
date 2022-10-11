@@ -1,4 +1,3 @@
-import 'package:campus_ola/firebase_options.dart';
 import 'package:campus_ola/screens/auth/signin.dart';
 import 'package:campus_ola/screens/auth/signup.dart';
 import 'package:campus_ola/screens/campus_ola_5/campus_ola_five.dart';
@@ -10,7 +9,7 @@ import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp();
   runApp(Provider(create: (_) => LoginStore(), child: const MyApp()));
 }
 
