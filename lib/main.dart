@@ -24,12 +24,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: HomeScreen.id,
+      initialRoute: SignInScreen.id,
       routes: {
         HomeScreen.id: (context) => const HomeScreen(),
         SignupScreen.id: (context) => const SignupScreen(),
         SignInScreen.id: (context) => const SignInScreen(),
-        CampusOlaFive.id: (context) => const CampusOlaFive(),
       },
     );
   }
