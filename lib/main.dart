@@ -1,6 +1,6 @@
 import 'package:campus_ola/screens/auth/signin.dart';
 import 'package:campus_ola/screens/auth/signup.dart';
-import 'package:campus_ola/screens/home_screen.dart';
+import 'package:campus_ola/screens/home.dart';
 import 'package:campus_ola/stores/login_store.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
